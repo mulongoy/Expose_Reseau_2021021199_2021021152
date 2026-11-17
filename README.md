@@ -1,56 +1,90 @@
-# Welcome to your Expo app 👋
+# APPLICATION MOBILE DE PLANIFICATION ET DE SUIVI DE MAINTENANCE DU PARC INFORMATIQUE
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Présentation du projet
 
-## Get started
+Cette application mobile permet de planifier, gérer et suivre les opérations de maintenance d'un parc informatique.
 
-1. Install dependencies
+Elle a été réalisée avec React Native et Expo dans le cadre du cours de Langage de Programmation Mobile, en BAC4 SI, année académique 2026-2027.
 
-   ```bash
-   npm install
-   ```
+## Objectifs du projet
 
-2. Start the app
+- Faciliter la gestion des équipements informatiques.
+- Assurer le suivi des techniciens.
+- Planifier les opérations de maintenance.
+- Enregistrer et suivre les interventions.
+- Faciliter le diagnostic et la surveillance des équipements.
 
-   ```bash
-   npx expo start
-   ```
+## Fonctionnalités de l'application
 
-In the output, you'll find options to open the app in a
+1. **Accueil :** tableau de bord présentant les informations principales.
+2. **Équipements :** ajout, consultation, modification et suppression des équipements.
+3. **Techniciens :** gestion des techniciens.
+4. **Planning :** planification et suivi des maintenances.
+5. **Interventions :** enregistrement et suivi des interventions.
+6. **Diagnostic :** vérification de la connectivité réseau et Internet.
+7. **Localisation :** géolocalisation et affichage des équipements sur une carte.
+8. **Caméra :** prise de photos pour les audits des équipements.
+9. **Audio :** enregistrement de mémos vocaux.
+10. **Contacts :** consultation des contacts du téléphone.
+11. **Notifications :** rappels de maintenance.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Technologies utilisées
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- SQLite
+- Expo Location
+- Expo Camera
+- Expo Audio
+- Expo Contacts
+- Expo Network
+- Expo Notifications
+- WebView
 
-## Get a fresh project
+## Installation et exécution
 
-When you're ready, run:
+### 1. Cloner le dépôt
 
 ```bash
-npm run reset-project
+git clone https://github.com/mulongoy/Expose_Reseau_2021021199_2021021152.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Accéder au dossier
 
-### Other setup steps
+```bash
+cd Expose_Reseau_2021021199_2021021152
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### 3. Installer les dépendances
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 4. Démarrer l'application
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+## Organisation du projet
 
-Join our community of developers creating universal apps.
+- `src/app/` : écrans et navigation.
+- `src/components/` : composants de l'application.
+- `src/database/` : gestion de la base de données.
+- `app.json` : configuration Expo.
+- `eas.json` : configuration de compilation Android.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Informations académiques
+
+- **Auteur :** Mulongoy
+- **Établissement :** UPL
+- **Promotion :** BAC4 SI
+- **Cours :** Langage de Programmation Mobile
+- **Année académique :** 2026-2027
+
+## Licence
+
+Licence MIT.
